@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="hero">
+            <div class="turn-box flex justify-content">
+                <div class="X-turn-box  flex justify-content">
+                    <h2 class="X-turn">X</h2>
+                    <span class="X-count">👩‍💼</span>
+                </div>
+                <div class="O-turn-box flex justify-content ">
+                    <h2 class="O-turn">O</h2>
+                    <span class="O-count">👨‍💼</span>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="Strt-game">Start game or select player</h1>
+    </header>
+    <main>
+        <section class="container">
+            <div class="game flex wrap">
+                <div class="mini-box box-1 border-bottom border-right"></div>
+                <div class="mini-box box-2 border-bottom"></div>
+                <div class="mini-box box-3 border-bottom border-left"></div>
+                <div class="mini-box box-4 border-bottom  border-right"></div>
+                <div class="mini-box box-5 border-bottom"></div>
+                <div class="mini-box box-6 border-bottom border-left"></div>
+                <div class="mini-box box-7 border-right"></div>
+                <div class="mini-box box-8"></div>
+                <div class="mini-box box-9 border-left"></div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="container footer">
+        <button class="btn one-Player">One Player</button>
+        <button class="restart-game btn">Restart game</button>
+        <button class="Two-Player btn">Two Player</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
